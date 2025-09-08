@@ -42,6 +42,13 @@ export default function BookingForm() {
     setFiles(e.target.files);
   };
 
+  // Xóa file đã chọn
+  const handleRemoveFiles = () => {
+    setFiles(null);
+    const input = document.getElementById('file-upload') as HTMLInputElement | null;
+    if (input) input.value = '';
+  };
+
   const validate = () => {
     const requiredFields = [
       'description', 'date', 'budget', 'firstName', 'surname', 'phone', 'email', 'privacyPolicy'
@@ -161,8 +168,21 @@ export default function BookingForm() {
                         <input id="file-upload" name="file-upload" type="file" className="sr-only" multiple onChange={handleFileChange} />
                       </label>
                     </div>
+                    
                     <p className="text-xs text-gray-500 mt-1">{t('quoteDetails.attachments.allowedTypes')}</p>
                   </div>
+                  {files && files.length > 0 && (
+                      <div className="mt-2 w-full text-left">
+                        <ul className="text-xs text-gray-700">
+                          {Array.from(files).map((file, idx) => (
+                            <li key={idx} className="flex items-center justify-between py-1">
+                              <span className="truncate max-w-[180px] inline-block align-middle">{file.name}</span>
+                            </li>
+                          ))}
+                        </ul>
+                        <button type="button" onClick={handleRemoveFiles} className="mt-2 text-xs text-red-600 hover:underline">Delete</button>
+                      </div>
+                    )}
                 </div>
               </div>
 
