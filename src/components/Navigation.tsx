@@ -1,6 +1,3 @@
-import LogoClient from './Logo';
-import LocaleSwitcher from './LocaleSwitcher';
-
 export default function Navigation() {
   
   return (

@@ -2,6 +2,7 @@
 import {useTranslations} from 'next-intl';
 import {ReactNode, useState} from 'react';
 import BookingForm from './BookingForm';
+import Image from 'next/image';
 
 type Props = {
   children?: ReactNode;
@@ -76,10 +77,12 @@ export default function PageLayout({children, title, isNotFoundPage = false}: Pr
             <div className='absolute z-10 top-0 left-0 right-0 bottom-0' style={{ background: 'linear-gradient(90deg, rgba(255, 255, 255, .8) 0%, rgba(0, 0, 0, 0.07) 70%)' }}>
 
             </div>
-            <img
-              src="../nextimmo-01.png"
+            <Image
+              src="/nextimmo-01.png"
               alt="Thumbnail"
+              fill
               className="absolute w-full h-full object-cover"
+              priority
             /> 
             <div className="gradian absolute bg-black opacity-40"></div>
             <div className="container absolute left-0 right-0 p-4 z-20">
@@ -140,9 +143,11 @@ export default function PageLayout({children, title, isNotFoundPage = false}: Pr
               <span className="font-inter font-semibold text-xs leading-4 tracking-[0.025em] uppercase text-[#6B7280] ml-4">{t('contactData.title')}</span>
             </div>
           </div>
-          <img 
-              src="../nextimmo-02.jpg"
+          <Image 
+              src="/nextimmo-02.jpg"
               alt="Thumbnail"
+              width={400}
+              height={400}
               className="inline-block md:mt-10 lg:mt-15"
             /> 
 
@@ -291,9 +296,11 @@ export default function PageLayout({children, title, isNotFoundPage = false}: Pr
             </div>
 
              <div className="p-4 sm:p-0 flex-1 md:w-1/2">
-              <img
-                src="../nextimmo-03.png"  
+              <Image
+                src="/nextimmo-03.png"  
                 alt="A modern house with solar panels on the roof"
+                width={800}
+                height={406}
                 className="w-full h-[406px] object-cover"
               />
             </div>

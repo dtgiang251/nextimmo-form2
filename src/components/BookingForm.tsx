@@ -77,7 +77,7 @@ export default function BookingForm() {
         form.append(key, typeof value === 'boolean' ? (value ? 'true' : 'false') : value);
       });
       if (files) {
-        Array.from(files).forEach((file, idx) => {
+        Array.from(files).forEach((file) => {
           form.append('file-upload', file);
         });
       }
@@ -97,7 +97,7 @@ export default function BookingForm() {
           message: 'An error occurred. Please try again.'
         });
       }
-    } catch (error) {
+    } catch {
       setSubmitMessage({
         type: 'error',
         message: 'An error occurred. Please try again.'
@@ -108,7 +108,7 @@ export default function BookingForm() {
 
   const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     handleChange(e);
-    const { name, value, type } = e.target;
+    const { name, type } = e.target;
     setErrorFields((prev) => prev.filter((f) => f !== name));
     // Nếu là checkbox thì kiểm tra checked
     if (type === 'checkbox' && (e.target as HTMLInputElement).checked) {
