@@ -1,0 +1,151 @@
+{
+  "IndexPage": {
+    "description": "This is a basic example demonstrating the use of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top-right corner and see how the content changes.",
+    "title": "Secretimmo"
+  },
+  "Manifest": {
+    "name": "Secretimmo"
+  },
+  "PathnamesPage": {
+    "description": "<p>Paths are also internationalized.</p><p>If you use the default language, English, you will see <code>/en/pathnames</code> in the browser's address bar on this page.</p><p>If you change the locale to German, the URL will be localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "title": "Paths"
+  },
+  "Error": {
+    "description": "<p>Unfortunately, we encountered an error.</p><p>You can try <retry>reloading the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "LocaleLayout": {
+    "title": "Rental Application Form",
+    "description": "",
+    "ogTitle": "Rental Application Form",
+    "ogDescription": "",
+    "twitterTitle": "",
+    "twitterDescription": "",
+    "canonical" : "https://tenant-application-form.vercel.app/en"
+  },
+  "NotFoundPage": {
+    "description": "Please check the address in the navigation bar or use the menu to access a known page.",
+    "title": "Page Not Found",
+    "backToHome": "Back to Home"
+  },
+  "Footer": {},
+  "Header": {},
+  "Form": {
+    "formTitle": "Angebotsanfrage für Photovoltaikanlagen",
+    "steps": {
+      "step1": "Projekt beschreiben",
+      "step2": "Angebote erhalten",
+      "step3": "Angebot auswählen"
+    },
+    "quoteDetails": {
+      "title": "Details zum Angebot",
+      "details": "Details zur Angebotsanfrage",
+      "description": "Projektinformationen (z.B. Maße, Größen, Hinweise usw.)",
+      "attachments": {
+        "title": "Anhänge",
+        "uploadText": "Datei hochladen oder hierher ziehen",
+        "allowedTypes": "PNG, JPG, GIF bis zu 10MB"
+      },
+      "date": "Datum",
+      "budget": "Budget"
+    },
+    "contactData": {
+      "title": "Ihre Kontaktdaten",
+      "firstName": "Vorname",
+      "surname": "Nachname",
+      "phone": "Telefon",
+      "email": "E-Mail-Adresse",
+      "postalCode": "Postleitzahl",
+      "city": "Stadt",
+      "houseNumber": "Hausnummer",
+      "street": "Straße"
+    },
+    "privacyPolicy": {
+      "title": "Datenschutzerklärung",
+      "consent": "Ich willige ein, dass meine Daten über dieses Formular übermittelt werden."
+    },
+    "submit_success": "Sie haben alle Formulare ausgefüllt!",
+    "submit_success2": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "submit": "Absenden",
+    "benefits": {
+      "title": "Vorteile",
+      "subtitle": "Vorteile von Photovoltaik zu Hause",
+      "items": {
+        "savings": {
+          "title": "Energieeinsparungen",
+          "description": "Erzeugen Sie Ihren eigenen Strom und senken Sie Ihre monatlichen Kosten."
+        },
+        "eco": {
+          "title": "Umweltfreundlich",
+          "description": "Nutzen Sie erneuerbare Energien, um den CO2-Fußabdruck zu reduzieren und dem Klimawandel entgegenzuwirken."
+        },
+        "value": {
+          "title": "Wertsteigerung der Immobilie",
+          "description": "Solaranlagen können den Wert Ihres Hauses steigern und Käufer anziehen."
+        },
+        "independence": {
+          "title": "Energieunabhängigkeit",
+          "description": "Weniger abhängig von Preisschwankungen, mehr Energiesicherheit für Ihr Zuhause."
+        }
+      }
+    },
+    "enhanceSection": {
+      "title": "Optimieren Sie Ihre Energienutzung mit Photovoltaik-Technologie",
+      "sections": {
+        "section1": {
+          "title": "Werden Sie Teil der Energiewende",
+          "description": "Photovoltaik ist der Schlüssel zur Senkung Ihrer Stromrechnung und zum Schutz des Planeten. Investieren Sie in Solarmodule, um Sonnenlicht in Energie umzuwandeln und die Abhängigkeit von fossilen Brennstoffen zu verringern. Das spart Energiekosten und steigert den Immobilienwert. Mit der richtigen Optimierung kann Ihr Zuhause ein Vorbild für Nachhaltigkeit sein."
+        },
+        "section2": {
+          "title": "Professionelles Team zu Ihren Diensten",
+          "description": "Für ein erfolgreiches Photovoltaik-Projekt brauchen Sie Experten. Unser Netzwerk umfasst Profis für die Systeminstallation. Ihre Fähigkeiten und Erfahrungen helfen, Projektanforderungen zu verstehen. Sie unterstützen bei der Auswahl der Ausrüstung, Ausrichtung der Module und Installation. Handwerker in allen Regionen bieten Unterstützung vor Ort."
+        },
+        "section3": {
+          "title": "Individuelle Lösungen für Sie",
+          "description": "Wir konzentrieren uns auf Ihren Energiebedarf. Unsere Handwerker bieten maßgeschneiderte Dienstleistungen: Solarmodul-Installation: Spezialisten verwenden hochwertige Ausrüstung für eine reibungslose Installation, damit Sie Strom erzeugen können. - Rentabilitätsstudie: Ermitteln Sie zunächst die möglichen Einsparungen. Experten analysieren Ihren Verbrauch, um die Rentabilität des Projekts zu prüfen. - Wartung und Überwachung: Wir bieten Verträge zur Sicherstellung der Langlebigkeit der Module. Regelmäßige Kontrollen optimieren die langfristige Energieproduktion."
+        },
+        "section4": {
+          "title": "Kostenlose Angebote einfach erhalten",
+          "description": "Planen Sie ein Photovoltaik-Projekt? Handeln Sie jetzt! Füllen Sie ein einfaches Formular aus und erhalten Sie bis zu 5 kostenlose Angebote von qualifizierten Handwerkern. Schnell, einfach und unverbindlich. Geben Sie Projektdetails an und erhalten Sie in wenigen Tagen individuelle Vorschläge zur Optimierung Ihrer Investition. Vergleichen Sie und wählen Sie die beste Option."
+        }
+      }
+    },
+    "cta": {
+      "title": "Zögern Sie nicht, den ersten Schritt zu machen",
+      "description": "Eine Investition in Photovoltaik ist eine Investition in Ihre Zukunft und die des Planeten. Werden Sie aktiv und fordern Sie jetzt kostenlose Angebote an, um die besten Konditionen zu erhalten. Lassen Sie uns Ihr Projekt verwirklichen!",
+      "button": "Kostenlose Angebote erhalten"
+    },
+    "faq": {
+      "title": "FAQ",
+      "questions": {
+        "who": {
+          "question": "Wer sind wir?",
+          "answer": "Nextimmo versteht sich als innovative Immobilienagentur mit der Vision, den luxemburgischen Immobilienmarkt neu zu definieren, um die Prozesse des Kaufs, Verkaufs und der Vermietung von Immobilien zu vereinfachen. Wir streben nach einem Gleichgewicht zwischen menschlicher Nähe und technologischem Fortschritt und entwickeln uns täglich weiter, um unseren Kunden und Partnern innovative Lösungen zu bieten."
+        },
+        "process": {
+          "question": "Wie läuft meine Angebotsanfrage ab?",
+          "answer": "Nextimmo versteht sich als innovative Immobilienagentur mit der Vision, den luxemburgischen Immobilienmarkt neu zu definieren, um die Prozesse des Kaufs, Verkaufs und der Vermietung von Immobilien zu vereinfachen. Wir streben nach einem Gleichgewicht zwischen menschlicher Nähe und technologischem Fortschritt und entwickeln uns täglich weiter, um unseren Kunden und Partnern innovative Lösungen zu bieten."
+        },
+        "why": {
+          "question": "Warum den Service von Nextimmo nutzen?",
+          "answer": "Nextimmo versteht sich als innovative Immobilienagentur mit der Vision, den luxemburgischen Immobilienmarkt neu zu definieren, um die Prozesse des Kaufs, Verkaufs und der Vermietung von Immobilien zu vereinfachen. Wir streben nach einem Gleichgewicht zwischen menschlicher Nähe und technologischem Fortschritt und entwickeln uns täglich weiter, um unseren Kunden und Partnern innovative Lösungen zu bieten."
+        },
+        "commitment": {
+          "question": "Bin ich durch meine Angebotsanfrage gebunden?",
+          "answer": "Nextimmo versteht sich als innovative Immobilienagentur mit der Vision, den luxemburgischen Immobilienmarkt neu zu definieren, um die Prozesse des Kaufs, Verkaufs und der Vermietung von Immobilien zu vereinfachen. Wir streben nach einem Gleichgewicht zwischen menschlicher Nähe und technologischem Fortschritt und entwickeln uns täglich weiter, um unseren Kunden und Partnern innovative Lösungen zu bieten."
+        },
+        "companies": {
+          "question": "Welche Unternehmen werden mir antworten?",
+          "answer": "Nextimmo versteht sich als innovative Immobilienagentur mit der Vision, den luxemburgischen Immobilienmarkt neu zu definieren, um die Prozesse des Kaufs, Verkaufs und der Vermietung von Immobilien zu vereinfachen. Wir streben nach einem Gleichgewicht zwischen menschlicher Nähe und technologischem Fortschritt und entwickeln uns täglich weiter, um unseren Kunden und Partnern innovative Lösungen zu bieten."
+        }
+      }
+    },
+    "contact": {
+      "title": "Sprechen Sie mit einer lokalen Nextimmo-Agentur",
+      "description": "Wir sind da, um Ihren Hausverkauf oder -kauf zum Erfolg zu führen. Ganz ohne Verpflichtung.",
+      "emailPlaceholder": "E-Mail-Adresse",
+      "button": "Senden",
+      "privacy": "Wir legen Wert auf den Schutz Ihrer Daten. Lesen Sie unsere Datenschutzerklärung."
+    }
+  }
+}

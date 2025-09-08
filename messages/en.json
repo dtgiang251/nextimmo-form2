@@ -1,0 +1,151 @@
+{
+  "IndexPage": {
+    "description": "This is a basic example demonstrating the use of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top-right corner and see how the content changes.",
+    "title": "Secretimmo"
+  },
+  "Manifest": {
+    "name": "Secretimmo"
+  },
+  "PathnamesPage": {
+    "description": "<p>Paths are also internationalized.</p><p>If you use the default language, English, you will see <code>/en/pathnames</code> in the browser's address bar on this page.</p><p>If you change the locale to German, the URL will be localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "title": "Paths"
+  },
+  "Error": {
+    "description": "<p>Unfortunately, we encountered an error.</p><p>You can try <retry>reloading the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "LocaleLayout": {
+    "title": "Rental Application Form",
+    "description": "",
+    "ogTitle": "Rental Application Form",
+    "ogDescription": "",
+    "twitterTitle": "",
+    "twitterDescription": "",
+    "canonical" : "https://tenant-application-form.vercel.app/en"
+  },
+  "NotFoundPage": {
+    "description": "Please check the address in the navigation bar or use the menu to access a known page.",
+    "title": "Page Not Found",
+    "backToHome": "Back to Home"
+  },
+  "Footer": {},
+  "Header": {},
+  "Form": {
+    "formTitle": "Quote request for Photovoltaic Installations",
+    "steps": {
+      "step1": "Describe project",
+      "step2": "Get quotes",
+      "step3": "Choose the offer"
+    },
+    "quoteDetails": {
+      "title": "Details of quote",
+      "details": "Details of quote request",
+      "description": "Project information (Examples: dimensions, sizes, remarks, etc.)",
+      "attachments": {
+        "title": "Attachments",
+        "uploadText": "Upload a file or drag and drop",
+        "allowedTypes": "PNG, JPG, GIF up to 10MB"
+      },
+      "date": "Date",
+      "budget": "Budget"
+    },
+    "contactData": {
+      "title": "Your contact data",
+      "firstName": "First name",
+      "surname": "Surname",
+      "phone": "Phone",
+      "email": "E-mail address",
+      "postalCode": "Postal code",
+      "city": "City",
+      "houseNumber": "House number", 
+      "street": "Street"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "consent": "I give my consent for my data to be transmitted through this form."
+    },
+    "submit_success": "You’ve finished filling out all the forms!",
+    "submit_success2": "We’ll reach out to you as soon as possible.",
+    "submit": "Submit",
+    "benefits": {
+      "title": "Benefits",
+      "subtitle": "Benefits of Photovoltaics at Home",
+      "items": {
+        "savings": {
+          "title": "Energy Savings",
+          "description": "Generate your own power to cut monthly bills."
+        },
+        "eco": {
+          "title": "Eco-friendly",
+          "description": "Use renewable energy to reduce carbon footprint and combat climate change."
+        },
+        "value": {
+          "title": "Property Value Increase",
+          "description": "Solar panels can increase home value, attracting buyers."
+        },
+        "independence": {
+          "title": "Energy Independence",
+          "description": "Less affected by price swings, your home enjoys better energy security."
+        }
+      }
+    },
+    "enhanceSection": {
+      "title": "Enhance Your Energy Utilization with Photovoltaic Technology",
+      "sections": {
+        "section1": {
+          "title": "Join the Energy Transition",
+          "description": "Photovoltaics are key to cutting your electricity bill and protecting the planet. Invest in solar panels to turn sunlight into power, reducing reliance on fossil fuels. It saves energy costs and boosts property value. With proper optimization, your home can be a model of sustainability."
+        },
+        "section2": {
+          "title": "Professional Team at Your Service",
+          "description": "For a successful photovoltaic project, you need experts. Our network has pros in system installation. Their skills and experience help them understand project challenges. They'll assist with equipment choice, panel orientation, and installation. Craftsmen across regions offer nearby help."
+        },
+        "section3": {
+          "title": "Customized Solutions for You",
+          "description": "We focus on your energy needs. Our artisans provide tailored services: Solar Panel Installation: Specialists use quality equipment for a smooth setup so you can generate power. - Profitability Study: Know potential savings first. Experts analyze your consumption to check project profitability. - Maintenance and Monitoring: We offer contracts to ensure panel longevity. Regular checks optimize long-term energy production."
+        },
+        "section4": {
+          "title": "Get Free Quotes Easily",
+          "description": "Planning a photovoltaic project? Act now! Fill a simple form for up to 5 free quotes from qualified artisans. It's quick, easy, and free of obligation. Provide project details, and in days, you'll get personalized proposals to optimize investment. Compare to choose the best option."
+        }
+      }
+    },
+    "cta": {
+      "title": "Don't Hesitate to Take the First Step",
+      "description": "Investing in photovoltaics is investing in your future and the planet's. Be active and request free quotes now to get the best deals. Let's make your project happen!",
+      "button": "Get free quotes"
+    },
+    "faq": {
+      "title": "FAQ",
+      "questions": {
+        "who": {
+          "question": "Who are we?",
+          "answer": "Nextimmo positions itself as an innovative real estate agency with the vision of redefining the Luxembourg real estate market to simplify the processes of buying, selling, and renting properties. Striving for a balance between a human approach and technological evolution, our agency progresses daily to offer innovative solutions to our clients and partners."
+        },
+        "process": {
+          "question": "How does my quote request process work?",
+          "answer": "Nextimmo positions itself as an innovative real estate agency with the vision of redefining the Luxembourg real estate market to simplify the processes of buying, selling, and renting properties. Striving for a balance between a human approach and technological evolution, our agency progresses daily to offer innovative solutions to our clients and partners."
+        },
+        "why": {
+          "question": "Why use the Nextimmo service?",
+          "answer": "Nextimmo positions itself as an innovative real estate agency with the vision of redefining the Luxembourg real estate market to simplify the processes of buying, selling, and renting properties. Striving for a balance between a human approach and technological evolution, our agency progresses daily to offer innovative solutions to our clients and partners."
+        },
+        "commitment": {
+          "question": "Am I committed by my quote request?",
+          "answer": "Nextimmo positions itself as an innovative real estate agency with the vision of redefining the Luxembourg real estate market to simplify the processes of buying, selling, and renting properties. Striving for a balance between a human approach and technological evolution, our agency progresses daily to offer innovative solutions to our clients and partners."
+        },
+        "companies": {
+          "question": "Which companies will respond to me?",
+          "answer": "Nextimmo positions itself as an innovative real estate agency with the vision of redefining the Luxembourg real estate market to simplify the processes of buying, selling, and renting properties. Striving for a balance between a human approach and technological evolution, our agency progresses daily to offer innovative solutions to our clients and partners."
+        }
+      }
+    },
+    "contact": {
+      "title": "Talk to a local Nextimmo Agency",
+      "description": "We're here to make your home sale or purchase go right. There's no obligation.",
+      "emailPlaceholder": "E-mail address",
+      "button": "Send",
+      "privacy": "We care about the protection of your data. Read our Privacy Policy."
+    }
+  }
+}
