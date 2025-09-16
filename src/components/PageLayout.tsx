@@ -144,7 +144,7 @@ export default function PageLayout({children, title, isNotFoundPage = false}: Pr
             </div>
           </div>
           <Image 
-              src="/nextimmo-02.jpg"
+              src="/nextimmo-02.png"
               alt="Thumbnail"
               width={400}
               height={400}

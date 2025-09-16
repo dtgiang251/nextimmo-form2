@@ -150,7 +150,7 @@ export default function BookingForm() {
                     name="description"
                     value={formData.description}
                     onChange={handleFieldChange}
-                    className={`shadow-sm block w-full p-2 border ${errorFields.includes('description') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none resize-none`}
+                    className={`shadow-sm block w-full p-2 border ${errorFields.includes('description') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none resize-none text-[16px]`}
                     placeholder={t('quoteDetails.description')}
                   />
                 </div>
@@ -194,7 +194,7 @@ export default function BookingForm() {
                     name="date"
                     value={formData.date}
                     onChange={handleFieldChange}
-                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('date') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('date') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                   />
                 </div>
 
@@ -209,7 +209,7 @@ export default function BookingForm() {
                       name="budget"
                       value={formData.budget}
                       onChange={handleFieldChange}
-                      className={`shadow-sm block w-full pl-12 px-4 py-[6px] border ${errorFields.includes('budget') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                      className={`shadow-sm block w-full pl-12 px-4 py-[6px] border ${errorFields.includes('budget') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                       placeholder="0"
                     />
                   </div>
@@ -234,7 +234,7 @@ export default function BookingForm() {
                     name="firstName"
                     value={formData.firstName}
                     onChange={handleFieldChange}
-                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('firstName') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('firstName') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                   />
                 </div>
                 <div>
@@ -244,7 +244,7 @@ export default function BookingForm() {
                     name="surname"
                     value={formData.surname}
                     onChange={handleFieldChange}
-                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('surname') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('surname') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                   />
                 </div>
                 <div className="flex">
@@ -264,7 +264,7 @@ export default function BookingForm() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleFieldChange}
-                        className={`block w-full h-[38px] px-4 py-[6px] border border-l-0 ${errorFields.includes('phone') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-r-md shadow-sm focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                        className={`block w-full h-[38px] px-4 py-[6px] border border-l-0 ${errorFields.includes('phone') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-r-md shadow-sm focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                       />
                     </div>
                   </div>
@@ -276,7 +276,7 @@ export default function BookingForm() {
                     name="email"
                     value={formData.email}
                     onChange={handleFieldChange}
-                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('email') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                    className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('email') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                   />
                 </div>
                 <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-4 lg:gap-4 mt-1 sm:mt-2 lg:mt-0">
@@ -291,7 +291,7 @@ export default function BookingForm() {
                         name="postalCode"
                         value={formData.postalCode}
                         onChange={handleFieldChange}
-                        className={`shadow-sm block w-full pl-12 px-4 py-[6px] border ${errorFields.includes('postalCode') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                        className={`shadow-sm block w-full pl-12 px-4 py-[6px] border ${errorFields.includes('postalCode') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                         placeholder="0"
                       />
                     </div>
@@ -303,7 +303,7 @@ export default function BookingForm() {
                       name="city"
                       value={formData.city}
                       onChange={handleFieldChange}
-                      className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('city') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                      className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('city') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                     />
                   </div>
                   <div>
@@ -313,7 +313,7 @@ export default function BookingForm() {
                       name="houseNumber"
                       value={formData.houseNumber}
                       onChange={handleFieldChange}
-                      className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('houseNumber') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                      className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('houseNumber') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                     />
                   </div>
                   <div>
@@ -323,7 +323,7 @@ export default function BookingForm() {
                       name="street"
                       value={formData.street}
                       onChange={handleFieldChange}
-                      className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('street') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none`}
+                      className={`shadow-sm block w-full px-4 py-[6px] border ${errorFields.includes('street') ? 'border-red-500' : 'border-[#D1D5DB]'} rounded-md focus:ring-[#B91C1C] focus:border-[#B91C1C] outline-none text-[16px]`}
                     />
                   </div>
                 </div>
@@ -339,7 +339,7 @@ export default function BookingForm() {
                     type="checkbox"
                     checked={formData.privacyPolicy}
                     onChange={handleFieldChange}
-                    className={`h-4 w-4 text-[#B91C1C] rounded border ${errorFields.includes('privacyPolicy') ? 'border-red-500' : 'border-[#D1D5DB]'} focus:ring-[#B91C1C]`}
+                    className={`h-4 w-4 text-[#B91C1C] rounded border ${errorFields.includes('privacyPolicy') ? 'border-red-500' : 'border-[#D1D5DB]'} focus:ring-[#B91C1C] text-[16px]`}
                   />
                 </div>
                 <div className="ml-3 text-sm">
