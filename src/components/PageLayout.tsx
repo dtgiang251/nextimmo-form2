@@ -149,6 +149,7 @@ export default function PageLayout({children, title, isNotFoundPage = false}: Pr
               width={400}
               height={400}
               className="inline-block md:mt-10 lg:mt-15"
+              unoptimized
             /> 
 
 
